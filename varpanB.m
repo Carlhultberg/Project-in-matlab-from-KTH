@@ -14,7 +14,7 @@ angle = 0.5819; % initial throwing angle
 
 uvv = [sin(angle)*19, cos(angle)*19]; % speed in y and x directon
 
-
+#input values
 y = 1.5;
 x = 0;
 t_new = 0;
