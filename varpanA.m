@@ -23,8 +23,7 @@ t = 0;
 h= 0.001;
 
 % loop which iterates a maximum of 10k times but breaks i y is lesser than zero since it has hit the ground then. 
-for i = 1:10000
-    
+for i = 1:1000
    [t_new, uvv_new] = RKstep(f,t,uvv,h);
     t = t_new;
     uvv = uvv_new;
